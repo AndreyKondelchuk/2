@@ -1,0 +1,9 @@
+header {
+  background-color: ffffff;
+}
+
+.studio:hover,
+.info:hover,
+.push:hover {
+  color: blue;
+}
