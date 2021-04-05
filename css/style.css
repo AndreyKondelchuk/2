@@ -176,6 +176,7 @@ header {
   letter-spacing: 0.03em;
 
   color: #212121;
+  background: #f5f4fa;
 }
 .first {
   position: absolute;
@@ -251,6 +252,36 @@ header {
   height: 294px;
   left: 1015px;
   top: 1061px;
+}
+
+.section-1 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+.section-2 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+
+.section-3 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+.section-4 {
+  position: absolute;
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
 }
 .footer {
   background: #2f303a;
