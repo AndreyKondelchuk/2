@@ -159,3 +159,16 @@ span {
 .footer-contacts-list-link:focus {
   color: var(--accent-color);
 }
+.all-button {
+  color: var(--title-text-color);
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+.all-button:hover,
+.all-button:focus {
+  color: var(--background-color);
+  background-color: var(--accent-color);
+}
