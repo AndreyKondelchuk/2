@@ -28,6 +28,40 @@ a {
 
   color: #2196f3;
 }
+.site-nav-list .link-current {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-list .link {
+  color: #000000;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav a {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-nav a:focus,
+.contacts-nav a:hover {
+  color: var(--accent-color);
+}
+
 .link {
   font-family: Roboto;
   font-style: normal;
@@ -38,6 +72,7 @@ a {
 
   color: #212121;
 }
+
 ul {
   list-style: none;
 }
@@ -58,6 +93,7 @@ span {
   background-color: #2f303a;
 }
 .business-title {
+  text-transform: uppercase;
   color: var(--background-color);
 
   font-weight: 900;
@@ -98,6 +134,7 @@ span {
 
 .title {
   color: var(--title-text-color);
+  text-transform: uppercase;
 }
 
 /*секции*/
